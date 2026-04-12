@@ -204,7 +204,7 @@ npm run dev
 
 ## License
 
-[MIT](LICENSE)
+[Apache License 2.0](LICENSE)
 
 ## เกี่ยวกับชื่อ
 

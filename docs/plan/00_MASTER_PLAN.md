@@ -26,6 +26,7 @@
 | **[[06_PHASE_4_PRODUCTION]]** | Phase 4: Load testing, observability, admin dashboard, HA |
 | **[[07_PHASE_5_GRAPHRAG]]** | Phase 5: GraphRAG, feedback loop, advanced RAG, pilot + rollout |
 | **[[08_FRONTEND_PLAN]]** | Frontend spec ครบทุกหน้า — user UI + admin UI + components |
+| **[[09_BUSINESS_PLAN_AND_ARCHITECTURE_REVIEW]]** | แผนธุรกิจ, ROI, rollout strategy, architecture improvements |
 
 ---
 
@@ -38,6 +39,12 @@ Saraphan = ถาม-ตอบจากเอกสารองค์กร (ร
 **ผู้ใช้เป้าหมาย:** พนักงาน NT ทุกฝ่าย (~1,000+ คน)  
 **ประเภทเอกสาร:** PDF/Word (ระเบียบ, นโยบาย, คำสั่ง), คู่มือปฏิบัติงาน, เอกสารสแกน, รายงานการเงิน  
 **นโยบายข้อมูล:** Hybrid — เอกสารทั่วไปใช้ Cloud API ได้, เอกสารลับต้อง On-Premise
+
+### Planning Update — AIaaS ภาครัฐ
+
+ทิศทางธุรกิจล่าสุดคือทำ Saraphan เป็น **Government Knowledge AIaaS** ก่อน โดยใช้หน่วยงานรัฐ/รัฐวิสาหกิจเป็นตลาดแรก และวาง GraphRAG เป็น core differentiator ตั้งแต่ MVP สำหรับเอกสารที่มี cross-reference เช่น ระเบียบ คำสั่ง มติ หนังสือเวียน และเอกสาร policy
+
+Local LLM เป็น cost/control layer: ใช้กับงานซ้ำ, query expansion, routing, sensitive answering และ routine Q&A เพื่อลดต้นทุนต่อ query ส่วน cloud LLM ใช้เฉพาะงานยากหรือ graph/entity extraction ที่ต้องการคุณภาพสูง รายละเอียดดู [[09_BUSINESS_PLAN_AND_ARCHITECTURE_REVIEW]]
 
 ---
 

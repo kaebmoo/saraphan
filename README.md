@@ -132,6 +132,7 @@ saraphan/
 | [06_PHASE_4_PRODUCTION](docs/plan/06_PHASE_4_PRODUCTION.md) | Production hardening |
 | [07_PHASE_5_GRAPHRAG](docs/plan/07_PHASE_5_GRAPHRAG.md) | GraphRAG + advanced features + rollout |
 | [08_FRONTEND_PLAN](docs/plan/08_FRONTEND_PLAN.md) | Frontend spec ครบทุกหน้า |
+| [09_BUSINESS_PLAN_AND_ARCHITECTURE_REVIEW](docs/plan/09_BUSINESS_PLAN_AND_ARCHITECTURE_REVIEW.md) | แผนธุรกิจ + ข้อเสนอปรับสถาปัตยกรรมสำหรับ planning phase |
 
 ## ความปลอดภัย
 
